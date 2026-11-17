@@ -1,0 +1,20 @@
+/* ==========================================================================
+   React build additions (loaded last). Only what componentised markup needs;
+   every visual style comes unchanged from the original stylesheets.
+   ========================================================================== */
+
+/* Generated SVG strings render through <SvgArt/> without adding a box,
+   so selectors such as `.media svg` and `.mega-promo .art svg` still match */
+.svg-host { display: contents; }
+
+/* Footer newsletter: the email field fills the row (was an inline style) */
+.news-form .field { flex: 1; }
+
+/* Checkbox field (Check component) keeps the regular label weight */
+.field > label.check { font-weight: 400; }
+
+/* Page transition wrapper must not create a stacking/containing block */
+main#main { display: block; }
+
+/* Header: hide "Credit Score" on narrow desktops (the original rule targets the .html link) */
+@media (max-width: 1150px) { .nav--loans > a[href="/credit-score"] { display: none; } }
