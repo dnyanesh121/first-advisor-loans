@@ -61,10 +61,10 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="rera">
+        {/* <div className="rera">
           <b>First Advisors arranges loans from partner banks and NBFCs regulated by the Reserve Bank of India. We are not a lender.</b> Loans are sanctioned at the sole discretion of the lending partner, subject to its credit assessment, and the final rate, fees and terms are in the lender's sanction letter and Key Fact Statement. Rates shown are indicative. [add DSA / partner registration details]{" "}
           <br /><b>Fraud alert:</b> We never ask for an upfront payment, OTP or UPI PIN to approve a loan. Report cyber fraud at cybercrime.gov.in or call 1930.
-        </div>
+        </div> */}
         <div className="fbottom">
           <span>© {new Date().getFullYear()} First Advisors Group of Companies</span>
           <span><a href="#">Privacy Policy</a> · <a href="#">Terms of Use</a> · <Link to="/contact#grievance">Grievance Redressal</Link> · <a href="#">Fair Practices Code</a></span>

@@ -7,8 +7,8 @@ export const CONFIG = {
   whatsapp: "[add]",                 // ← WhatsApp business number, digits only, e.g. 919876543210
   email: "support@firstadvisorsinsurance.com",
   address: "Office No. 410, A Wing, Express Zone, Western Express Highway, Malad East, Mumbai 400097, Maharashtra",
-  hours: "Mon–Sat, 10:00 am – 7:00 pm",
-  irda: "IRDA License No: 584, License valid till: 07-02-2029, CIN NO-U66010JH2016PTC003572",
+  hours: "Mon–Sat, 9:30 am – 6:30 pm",
+  // irda: "IRDA License No: 584, License valid till: 07-02-2029, CIN NO-U66010JH2016PTC003572",
   groupUrl: "https://advisor-group-company.netlify.app/",
   ratesAsOf: "2026-11-01",           // ← date the indicative rates were last checked
   grievanceOfficer: "[add name]",   // ← Grievance Redressal Officer
